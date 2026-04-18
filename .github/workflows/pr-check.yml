@@ -1,0 +1,28 @@
+name: PR Check — Quick Smoke
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  pr-smoke:
+    name: 🔥 PR Smoke Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Crear carpeta de reportes
+        run: mkdir -p reports
+
+      - name: Smoke tests rápidos
+        run: pytest -m smoke --tb=short -q
