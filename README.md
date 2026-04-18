@@ -107,7 +107,7 @@ qa-cicd-pipeline/
 
 bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU-USUARIO/qa-cicd-pipeline.git
+git clone https://github.com/Jenifer-Gonzalez-DS-QA/qa-cicd-pipeline.git
 cd qa-cicd-pipeline
 
 # 2. Crear entorno virtual
