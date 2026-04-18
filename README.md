@@ -270,7 +270,7 @@ Los 3 juntos forman un ecosistema QA completo de nivel profesional.
 
 QA Engineer | Data Science | Scrum Master
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](www.linkedin.com/in/jenifer-paola-gonzalez-peñuela)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/jenifer-paola-gonzalez-peñuela)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/Jenifer-Gonzalez-DS-QA/)
 
 -----
