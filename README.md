@@ -105,7 +105,6 @@ qa-cicd-pipeline/
 
 ## ⚙️ Instalación
 
-bash
 # 1. Clonar el repositorio
 git clone https://github.com/Jenifer-Gonzalez-DS-QA/qa-cicd-pipeline.git
 cd qa-cicd-pipeline
@@ -126,7 +125,6 @@ pip install -r requirements.txt
 
 ## ▶️ Cómo Ejecutar las Pruebas
 
-bash
 # Toda la suite (los 3 niveles juntos)
 pytest
 
