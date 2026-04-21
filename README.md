@@ -37,7 +37,7 @@ Organiza las pruebas en 3 niveles con marcadores de pytest y las ejecuta automá
 
 ## 🏗️ Arquitectura del Pipeline
 
-
+```
 Push / PR / Cron (8am L-V)
           │
           ▼
@@ -58,7 +58,7 @@ Push / PR / Cron (8am L-V)
         ┌──────────────────┐
         │ 📊 Consolidar    │  ← Artifacts por 30 días
         └──────────────────┘
-
+```
 
 -----
 
@@ -76,7 +76,7 @@ Push / PR / Cron (8am L-V)
 
 ## 📁 Estructura del Proyecto
 
-
+```
 qa-cicd-pipeline/
 │
 ├── tests/
@@ -99,7 +99,7 @@ qa-cicd-pipeline/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 -----
 
